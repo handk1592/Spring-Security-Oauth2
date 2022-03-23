@@ -1,1 +1,5 @@
 rootProject.name = 'Spring-Security-Oauth2'
+include 'ResourceServer'
+include 'AuthorizationServer'
+include 'DBServer'
+

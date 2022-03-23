@@ -1,3 +1,4 @@
+/*
 package com.security.oauth;
 
 import org.springframework.boot.SpringApplication;
@@ -10,9 +11,12 @@ public class SpringSecurityOauth2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityOauth2Application.class, args);
-		
+
 		PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
 		System.out.println("endcode = " + passwordEncoder.encode("handg12"));
 	}
 
 }
+
+https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-OAuth2?category=745027
+*/
